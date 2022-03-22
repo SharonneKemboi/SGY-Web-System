@@ -8,3 +8,10 @@
 .card-body h4{
     text-align: center;
 }
+.footer{
+    text-align: center;
+    margin-top: 10%;
+}
+.my-login-page .card-wrapper{
+    width: 25vw;
+}
