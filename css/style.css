@@ -7,6 +7,8 @@
 }
 .card-body h4{
     text-align: center;
+    background-color: lightgreen;
+    border-radius: 15px;
 }
 .footer{
     text-align: center;
@@ -14,7 +16,9 @@
 }
 .my-login-page .card-wrapper{
     width: 25vw;
-    border-radius: 10%;
+    border-radius: 15px;
+    margin-top: 3%;
+    padding: 20px;
 }
 .my-login-page .card.fat{
     padding: 10px;
