@@ -14,4 +14,11 @@
 }
 .my-login-page .card-wrapper{
     width: 25vw;
+    border-radius: 15%;
+}
+.my-login-page .card.fat{
+    padding: 10px;
+}
+.my-login-page .card .card-title{
+    margin
 }
