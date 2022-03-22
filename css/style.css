@@ -40,3 +40,8 @@
 .my-login-page .float-right{
     margin-top: -9%;
 }
+@media screen and (max-width: 320px){
+    .my-login-page .card.fat{
+        padding: 0;
+    }
+}
