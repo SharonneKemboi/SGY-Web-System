@@ -37,13 +37,31 @@ body {
 }
 .info{
     margin-left: 10%;
-    border-left: 10px solid lightgreen;
     margin-top: 4%;
+    display: flex;
    
 }
 .info p{
     color: lightgreen;
+    border-left: 10px solid lightgreen;
     font-size: 20px;
     font-family:fantasy;
-    margin-left: 2%;
+    margin-left: 5%;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+.menu h1{
+    color: lightgreen;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2%;
+}
+.row1{
+    display: flex;
+}
+.card{
+    margin: 2%;
+}
+.row2{
+    display: flex;
 }
