@@ -65,3 +65,34 @@ body {
 .row2{
     display: flex;
 }
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid green;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+   
+}
+.subscribe p{
+    font-size: 20px;
+    color: lightgreen;
+}
+.script{
+    margin-top: 10px;
+    height: 60%;
+    width: 60%;
+}
+#gee{
+    height: 70%;
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 1%
+   ;
+}
