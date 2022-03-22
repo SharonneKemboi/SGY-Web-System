@@ -2,8 +2,8 @@
     width: 8vw;
     border-radius: 50%;
     margin-left: 30%;
-    margin-bottom: 30%;
-    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 .card-body h4{
     text-align: center;
@@ -20,7 +20,7 @@
     padding: 10px;
 }
 .my-login-page .card .card-title{
-    margin-bottom: 15%;
+    margin-top: 1%;
 }
 .my-login-page .form-control {
     border-width: 2px;
@@ -30,6 +30,7 @@
 }
 .my-login-page .btn.btn-block{
     padding: 10px 10px;
+    border: lightgreen;
 }
 @media screen and (max-width: 425px) {
     .my-login-page .card-wrapper{
