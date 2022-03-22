@@ -44,4 +44,7 @@
     .my-login-page .card.fat{
         padding: 0;
     }
+    .my-login-page .card.fat .card-body{
+        padding: 15px;
+    }
 }
