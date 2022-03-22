@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .nav{
     border: 1px solid lightgreen;
     width: 10%;
@@ -30,4 +34,16 @@
     background-image: url("../Images/car.jpg");
     background-size: cover;
 
+}
+.info{
+    margin-left: 10%;
+    border-left: 10px solid lightgreen;
+    margin-top: 4%;
+   
+}
+.info p{
+    color: lightgreen;
+    font-size: 20px;
+    font-family:fantasy;
+    margin-left: 2%;
 }
