@@ -1,5 +1,9 @@
 body {
     background-color: black;
+   
+}
+.nav1 a{
+    color: lightgreen;
 }
 
 .nav{
@@ -100,4 +104,11 @@ body {
     color: green;
     text-align: center;
     margin-bottom: 5%;
+}
+.card-body p{
+    display: none;
+}
+#btn{
+    margin-left: 10%;
+    margin-top: 3%;
 }
