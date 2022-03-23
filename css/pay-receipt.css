@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela:wght@300;400&family=Poppins&family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+body {
+ 
+    background: rgb(238, 236, 234);
+    background: linear-gradient(200deg, #054914 20%, rgba(255,255,255,1) 80%);
+    font-family: 'Gabriela', sans-serif;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+.navbar{
+  background-color: black;
+  opacity: 0.8;
+ 
+  
+}
