@@ -86,4 +86,8 @@ body{
     cursor: default;
     user-select: none;
   }
+  .wrapper .form-container{
+    width: 100%;
+    overflow: hidden;
+  }
   
