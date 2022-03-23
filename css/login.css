@@ -11,10 +11,22 @@ html, body{
     place-items: center;
 }
 body{
-    background-image: url(./Images/svg.png);
+    background-image: url("./Images/svg.png");
     color: white;
     background-size: cover;
     background-position: center center;
     text-align: center;
     background-repeat: no-repeat;
+}
+::selection{
+    background-color: lightgreen;
+    color: #fff;
+}
+.wrapper{
+    overflow: hidden;
+  max-width: 390px;
+  background: -webkit-linear-gradient(left, lightgreen, green);;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
 }
