@@ -165,24 +165,24 @@ height: 50vh;
     margin-bottom: 2rem;
   }
 
-  /* this section adds styling for the payment icon*/
+
 .payment-icons {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* border-radius: 20px; */
+  
 }
 
-/* .payment-icons .mpesa-img {
+.payment-icons .mpesa-img {
   border: none;
-} */
+} 
 
 .mpesa-img button {
   padding: 5px 10px;
   border-radius: 10px;
   width: 100%;
   height: 50%;
-  background-color: #2d706b;
+  background-color: #0c614c;
 }
 .mpesa-img img{
   height: 10vh;
@@ -193,18 +193,21 @@ height: 50vh;
   width: 6vw;
  
 }
+.cash-message{
+    display: none;
+}
 
 .cash-img button {
   padding: 20px 35px;
   border-radius: 10px;
-  background-color: #2d706b;
+  background-color: #0c614c;
 }
 
 
 
-/* .payment-icons button:focus {
-  border: 10px solid rgb(6, 80, 39);
-} */
+ .payment-icons button:focus {
+  border: 10px solid rgb(250, 250, 250);
+} 
 
 .mpesa-text {
  text-align: center;
