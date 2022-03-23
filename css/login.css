@@ -10,3 +10,11 @@ html, body{
     width: 100%;
     place-items: center;
 }
+body{
+    background-image: url(./Images/svg.png);
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
