@@ -52,3 +52,6 @@ body{
   border: 1px solid lightgrey;
   border-radius: 5px;
 }
+.slide-controls label.signup{
+    color: #000;
+}
