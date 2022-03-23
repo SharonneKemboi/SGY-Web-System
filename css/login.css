@@ -90,4 +90,8 @@ body{
     width: 100%;
     overflow: hidden;
   }
+  .form-container .form-inner{
+    display: flex;
+    width: 200%;
+  }
   
