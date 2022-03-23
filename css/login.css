@@ -79,3 +79,6 @@ body{
   #signup:checked ~ label.login{
     color: #000;
   }
+  #login:checked ~ label.signup{
+    color: #000;
+  }
