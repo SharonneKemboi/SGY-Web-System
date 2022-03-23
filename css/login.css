@@ -76,3 +76,6 @@ body{
     cursor: default;
     user-select: none;
   }
+  #signup:checked ~ label.login{
+    color: #000;
+  }
