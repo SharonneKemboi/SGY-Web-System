@@ -7,7 +7,7 @@
    
 }
 body {
- 
+    
     background: rgb(238, 236, 234);
     background: linear-gradient(200deg, #054914 20%, rgba(255,255,255,1) 80%);
     font-family: 'Gabriela', sans-serif;
@@ -16,8 +16,8 @@ body {
     
 }
 .navbar{
-  background-color: black;
-  opacity: 0.8;
+    background-color: black;
+    opacity: 0.8;
  
   
 }
@@ -38,19 +38,20 @@ h3{
     color: white;
     text-align: center;
     margin-top: -2%;
+    font-weight: bolder;
 }
 
 section {
 
-    margin-left: 30%;
-    margin-top: 10%;
+    margin-left: 20%;
+    margin-top: 15%;
     display: flex;
     justify-content: space-between;
     
     
   }
   
-  .title {
+.title {
     color: #084606;
     font-family: "Gabriela", sans-serif;
     font-size: 1rem;
@@ -59,14 +60,25 @@ section {
     padding-bottom: 10px;
     font-weight: 900;
   }
+
+.title2{
+    color: #084606;
+    font-family: "Gabriela", sans-serif;
+    font-size: 1rem;
+    opacity: 0.9;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-weight: 900;
+    padding-top: 10px;
+}
   
-  .value-input {
+.value-input {
     color: #052214;
     text-transform: capitalize;
     font-size: 1rem;
   }
   
-  .receipt-value-input {
+.receipt-value-input {
     margin-top: -98px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
@@ -76,23 +88,20 @@ section {
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
   }
   
   
-  .amount__currency,
-  .payment__method {
+.amount__currency, .payment__method {
     display: flex;
-    gap: 15px;
+    gap: 10px;
   }
-  .amount,
-  .currency,
-  .payment
-   {
+
+.amount, .currency, .payment {
     width: 100%;
   }
   
-  .input {
+.input {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -110,45 +119,39 @@ section {
   }
   
   
-  .proceed a{
-      color: white;
-      text-decoration: none;
-      font-family: "Gabriela";
-      font-size: 1.4rem;
+.proceed a{
+    color: white;
+    text-decoration: none;
+    font-family: "Gabriela";
+    font-size: 1.4rem;
   }
   
   
-  @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   
-    body {
-      overflow: hidden;
-    }
+body {
+    overflow: hidden;
+  }
   
-  .amount,
-  .currency,
-  .payment
-   {
+.amount, .currency, .payment {
     width: 100%;
   }
-  
-    
-    section{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .amount__currency,
-  .payment__route {
-      flex-direction: column;
+
+section{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+.amount__currency, .payment__route {
+    flex-direction: column;
   
   }
   }
   
-  @media  screen and (max-width: 1000px) {
-  
-      
-        section{
-            width: 90%;
-            flex-direction: column;
-             gap: 50px;
+@media  screen and (max-width: 1000px) {
+  section{
+    width: 90%;
+    flex-direction: column;
+    gap: 50px;
 }
  }
