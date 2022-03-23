@@ -82,3 +82,8 @@ body{
   #login:checked ~ label.signup{
     color: #000;
   }
+  #login:checked ~ label.login{
+    cursor: default;
+    user-select: none;
+  }
+  
