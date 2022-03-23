@@ -5,4 +5,11 @@ body{
 .card{
     background-color: rgb(80, 161, 80);
 }
- 
+ #img{
+     height: 50px;
+     width: 50px;
+ }
+ #image{
+     height: 100px;
+     width: 100px;
+ }
