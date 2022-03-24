@@ -37,7 +37,7 @@ option {
       position: relative;
   }
   .container1{
-      background-image: url("background.jpg");
+      background-image: url("../Images/background.jpg");
       position: relative;
       background-repeat: no-repeat;
       width: 100%;
