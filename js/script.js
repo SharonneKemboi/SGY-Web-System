@@ -22,9 +22,6 @@ $("#btn5").click(function(){
     $("#car5").toggle()
     $(".card-text5").toggle()
 })
-$("#gee").click(function(){
-    alert("Thank you for you feedback")
-})
 
 $("#btn6").click(function(){
     $("#car6").toggle()
@@ -39,4 +36,13 @@ $("#btn7").click(function(){
 $("#btn8").click(function(){
     $("#car8").toggle()
     $(".card-text8").toggle()
+})
+$("#gee").click(function(){
+   let userInput=$(".script").val()
+
+   if (userInput==""){
+       alert("please fill the required field")
+   }else{
+       alert("Thank you for reaching out to us")
+   }
 })
