@@ -22,7 +22,7 @@
         <h2 class="head2 text-light " style="position: absolute; margin-left: 20%;" >SGY PAYMENT GATEWAY</h2>
 
         <!--Arrow Right Bootstrap SVG--> 
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
          </svg></a>
       </div>
@@ -100,9 +100,45 @@
               </div>
             </div>
           </div>
+          <div class="container">
+            <form action=""><hr>
+              <h2>Other Payment Methods</h2>
+              <div class="cards3" style="font-size:1.4rem ; color: #569805;"> Accepted Cards <br>
+                
+                <div>
+                        <img src="./Images/payment/classic.jpg" alt="Visa" class="cards" id="visa">
+                        <img src="./Images/payment/Logo-PayPal-transparent-PNG.png" alt="Paypal" class="cards" id="paypal">
+                        <img src="./Images/payment/travelex-money-card.png" alt="MasterCard" class="cards" id="mastercard">
+                    </div>
+                    Card Type: *
+                    <select name="card_type" id="card_type" required>
+                        <option value="">--Select a Card Type</option> //when user first visits it will not be stored in server
+                        <option value="visa">Visa</option>
+                        <option value="paypal">Paypal</option>
+                        <option value="mastercard">MasterCard</option>
+                    </select>
+                </div>
+                <div>
+                    Card Number: * <input type="number" name="card_number" id="card_number"
+                        placeholder="4444-6666-7777-8888" required>
+                </div>
+                <div>
+                    Expiration Date: * <input type="date" name="exp_date" id="exp_date" required>
+                </div>
+                <div>
+                    CVV: * <input type="password" name="cvv" id="cvv" placeholder="123">
+                </div>
+                <input type="submit" value="Pay Now">
+            </form>
+    
         </div>
-      </div>
-    </div>
+        </div>
+ 
+
+
+     
+  
+
 
     
     

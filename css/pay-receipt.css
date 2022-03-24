@@ -7,9 +7,13 @@
    
 }
 body {
-    
+  
+    --color-primary: #0d0e0d;
+    --color-primary-dark: #070707;
+    --color-secondary: #1c1d25;
+    --border-radius: 4px;
     background: rgb(238, 236, 234);
-    background: linear-gradient(200deg, #054914 20%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(200deg, #070707 15%, rgb(8, 8, 8) 80%);
     font-family: 'Gabriela', sans-serif;
     background-repeat: no-repeat;
 
