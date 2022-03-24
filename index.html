@@ -1,41 +1,88 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Share Gari Yako Web App</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-   </head>
-  <body>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores assumenda quod quae autem in delectus, perspiciatis accusantium modi eius facere quam fuga eos eligendi rem doloremque! Vero, minima quibusdam.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container1">
+        <!-- <img class="image"  src="background.jpg" alt=""> -->
+        <p>Book Your Travel Ride Now</p>
+    <p id="p1">Travel and Commute Between Cities With Ease.</p>
+    </div>
+    <div class="container2">
+    <div class="container">
+        <form id="form" action="">
+        <label for="">From</label> <br>
+        <select id="from">
+            <option class="option1" value="ngong">Ngong</option>
+            <option value="cbd">CBD</option>
+            <option value="mathare">Mathare</option>
+            <option value="juja">Juja</option>
+            <option value="githurai">Githurai</option>
+            <option value="ngara">Ngara</option>
+        </select>
+        <div class="container2">
+            <br>
+            <label for="">Destination</label> <br>
+            <br>
+            <select class="destination">
+            <option value="pipeline">Pipeline</option>
+            <option value="buruburu">BuruBuru</option>
+            <option value="umoja">Umoja</option>
+            <option value="hamza">Hamza</option>
+            <option value="syokimau">Syokimau</option>
+        </select>
+        <br>
+        <div class="Vehicle">
+            <br>
+            <label for="select">Vehicle No</label> <br>
+            <br>
+            <select class="browser-default custom-select custom-select-md mb-3 name" id="size">
+              <option value="one">KDG345C</option>
+              <option value="two">KCZ765H</option>
+              <option value="three">KDE254C</option>
+              <option value="four">KCN675V</option>
+              </select>
+            </div>
+        <br>
+        <div class="passangers">
+            <br>
+            <label for="select">Passangers</label> <br>
+            <br>
+            <select class="browser-default custom-select custom-select-md mb-3 name" id="size">
+              <option value="one">1</option>
+              <option value="two">2</option>
+              <option value="three">3</option>
+              <option value="four">4</option>
+              </select>
+            </div>
+            <br>
+            <br>
+            <label for="option">Depature Date</label> <br>
+            <br>
+           <br> <input type="date" id="start" name="trip-start" class="browser-default custom-select custom-select-md mb-3 name" value="2022-03-23"
+            min="2022-01-01" max="2022-12-31"> <br>
+            <br>
+            <br>
+            <label for="option">Depature Time</label> <br>
+            <br>
+           <br> <input type="time" id="start" name="trip-start" class="browser-default custom-select custom-select-md mb-3 name" value="2022-03-23"
+            min="08:00" max="21:00"> <br>
+            <br>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Search Now</button> <span> <button type="button" class="btn btn-primary btn-lg btn-block">Pay Now</button></span>
+              <!-- <p>7:20 eldoret-------------------- 7hrs --------- nairobi</p> -->
 
       
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+        </div>
+    </form>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
 </html>
