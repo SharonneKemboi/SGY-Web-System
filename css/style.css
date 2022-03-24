@@ -20,9 +20,9 @@ body{
      width: 100px;
  }
  #txt{
-     padding-left: 58%;
+     padding-left: 60%;
      position: absolute;
-     top: 50%;
+     top: 30%;
  }
  
  .nav ul{
@@ -50,8 +50,5 @@ body{
      justify-content: space-between;
      color: green;
  }
- @media screen and (min-width: 480px){
-    #txt{ width: 200px; float:left}
-    #btn{margin-left: 216px;}
- }
+ 
  
