@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
       <head>
         <title>Title</title>
@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top" >
       <div class="container-fluid title">
         <img class="d-inline-block align-top "  src="./Images/payment/car-removebg-preview.png" alt="logo-icon" srcset="" height="60"  />
-        <h2 class="head2 text-light " style="position: absolute; margin-left: 20%;" >SVG PAYMENT GATEWAY</h2>
+        <h2 class="head2 text-light " style="position: absolute; margin-left: 20%;" >SGY PAYMENT GATEWAY</h2>
 
         <!--Arrow Right Bootstrap SVG--> 
         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -40,7 +40,7 @@
         <hr />
 
         <div class="wrapper">
-          <p class="lead">Please Complete Your Payment Below</p>
+          <p class="lead" style="font-size: 1.6rem; width: 100%;">Please Complete Your Payment Below</p>
           <img src="./Images/payment/images.png" class="transact" height="120" width="150" alt="" srcset="">
         </div>
         </div>
@@ -52,20 +52,24 @@
       <!--Payment Method-->
       <div class="payment-method">
         <div class="payment-text">
-          <span class="payment-title"> <p class="payment-text-medium"> <i>(Select Payment Method)</i></p></span>
+          <span class="payment-title"> <p class="payment-text-medium" style="font-size: 1.5rem;"> <i>(Select Payment Method)</i></p></span>
             <div class="payment-icons">
              
               <!--Mpesa-->
               <div class="mpesa-img">
-                <button><img src="./Images/payment/Lipa-na-mpesa-removebg-preview.png" alt="mpesa" srcset="" /></button>
+                <button id="btn1"><img src="./Images/payment/Lipa-na-mpesa-removebg-preview.png" alt="mpesa" srcset="" /></button>
               </div>
+
+
+
+           
+
 
                 <!--cash option-->
               <div class="cash-img">
-                <button><img src="./Images/payment/Cash-designstyle-summer-m.png"alt="cash" srcset="" /> </button>
-                <div class="cash-message">
-                <h3 >You have Selected To Pay With Cash </h3>
-                <p>Please Ensure That You Have Given Your Cash To Your Designated Car Owner </p>
+                <button id="btn2" ><img src="./Images/payment/Cash-designstyle-summer-m.png"alt="cash" srcset="" /> </button>
+                <p class="para" style="font-weight: bolder ; font-size: 1.7rem;">You have Selected To Pay With Cash </p>
+                <p class="para" style="font-weight: 600; font-size: 1rem; color: darkgreen;">Please Ensure That You Have Given Your Cash To The Car Owner </p>
               </div>
               </div>
             </div>
@@ -74,27 +78,25 @@
           <!--Form input-->
           <div class="form-wrapper">
             <div class="form__input-group">
-              <p class="form__title">Enter Mpesa Till Number</p>
+              <p class="form__title" style="font-size: 1.5rem;">Enter SGY Mpesa Till Number Below</p>
+              <p>(SGY MPESA TILL NUMBER IS: 507890)</p>
               <input type="text" class="form__input" autofocus placeholder="12345678" />
             </div>
 
             <div class="form__input-group">
               <p class="form__title">Enter Amount </p>
-              <input
-                type="text" class="form__input" autofocus placeholder="Kshs 100"/>
+              <input type="text" class="form__input" autofocus placeholder="Kshs 100"/>
             </div>
 
              <!--horizontal break-->
             <hr />
             <div class="main-btn">
               <div class="mpesa-text">
-                <span>Click the button below to be redirected to M-Pesa toolkit to enter pin</span>
+                <span>Click the button below to Confrirm your Payment Details</span>
               </div>
 
               <div class="mpesa-btn">
-                <button>
-                  <a href="pay-receipt.html">PAY NOW</a>
-                </button>
+                <button><a href="pay-receipt.html">CONFIRM PAYMENT NOW</a></button>
               </div>
             </div>
           </div>
@@ -102,20 +104,23 @@
       </div>
     </div>
 
-    <!--footer Section-->
-    <div class="footer-section mt-5">
-      <ul>
-        <li>Help</li>
-        <li>Contact Us</li>
-        <li>Terms of Service</li>
-      </ul>
-    </div>
-  </div>
+    
+    
   </section>
+<!--footer Section-->
+  <div class="footer-section mt-5">
+    <i class="fa fa-copyright" style="color: green;" aria-hidden="true">Share Gari Yako  2022</i>
+  </div>
+
 
     
    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+    
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="js/payment.js"></script>
+</body>
 </html>
