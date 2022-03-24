@@ -1,54 +1,137 @@
-body{
-    background: rgb(238, 236, 234);
-    background: linear-gradient(180deg,rgb(40, 92, 45) 20%, rgba(255, 255, 255) 80%);
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.card{
-    background-color: rgb(80, 161, 80)
+
+nav{
+    background: #0a0a0a !important;
 }
-.col{
-    color: rgb(80, 161, 80);
+.navbar{
+    background-color: black;
+    opacity: 0.8;
 }
- #img{
-     height: 10vh;
-     width: 5vw;
-     position: absolute;
-     top: 80%;
-     padding-left: 2%;
- }
- #image{
-     height: 100px;
-     width: 100px;
- }
- #txt{
-     padding-left: 60%;
-     position: absolute;
-     top: 30%;
- }
- 
- .nav ul{
-    width: 70%;
-    margin-left: 70%;
-    display: flex;
-    padding: 1%;
-    justify-content: space-around;
-    background-color: darkgreen;
+
+#navmenu{
+    display: block;
+    margin-left: 55% !important;
+    margin-right: 10% !important;
+}
+
+#registermenu{
+    display: block;
+    margin-left: 15% !important;
+}
+
+#icon{
+    display: block;
+    font-size: 337.5%;
+    color: #1aa810;
+    font-family: 'Gabriela', sans-serif;
+    padding-left: 3%;
+}
+
+#navbarSupportedContent ul li a{
+    font-style: normal;
+    font-family: 'Gabriela', sans-serif;
+    font-size: 115%;
+    font-weight: 600;
+    color: #1aa810 !important;
     
- }
- .nav{
-    margin-top: -7%;
- }
- .nav ul li {
-     list-style-type: none;
-     color: white;
-     font-size: 1.4rem;
- }
- #nave{
-     padding-left: 50%;
- }
- .nav-link{
-     padding: 2px;
-     justify-content: space-between;
-     color: green;
- }
+}
+
+#section1{
+    background: #080808;
+    min-height: 100vh;
+    color: #EBEBEB;
+
+
+}
+
+ .img1{
+    float: right;
+     margin: 7%; 
+     height: 50vh; 
+     width: 40vw;
+     margin-top: 15%;
+}
+#sgy{
+    display: block;
+    padding-left: 4%;
+    margin-top: 5%;
+}
+
+#sgy h1{
+    font-family: 'Permanent Marker', cursive;
+    color: #1aa810;
+    line-height: 3.2rem;
+    display: block;
+    margin-left: 3%;
+}
+
+#sgy p{
+    display: block;
+    margin-left: 3%;
+    margin-top: 3%;
+    color: #f7e8e8;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Gabriela', sans-serif;
+
+}
+
+button{
+    border: 5px solid;
+    background-color: #1aa810;
+    padding: 2%;
+    margin-left: 10%;
+    
+}
+
+button a{
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+.container {
+  background-color: #0a0a0a;
+  color: #1aa810;
+  line-height: 2;
+  padding: 2%;
+  
+  
+}
+.container p{
+    font-size: 1.8rem;
+    
+}
+
+.container h1{
+    color: white;
+   
+    
+}
+.container1{
+    display: flex;
+}
+
+.card{
+    margin: 5%;
+    
+}
  
- 
+.head2 h2{
+text-align: center;
+color: #1aa810;
+font-size: 70px;
+font-family: "Gabriela";
+
+}
+
+.accordion-item {
+    width: 90%;
+}
+
