@@ -22,6 +22,9 @@ $("#btn5").click(function(){
     $("#car5").toggle()
     $(".card-text5").toggle()
 })
+$("#gee").click(function(){
+    alert("Thank you for you feedback")
+})
 
 $("#btn6").click(function(){
     $("#car6").toggle()
