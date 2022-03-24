@@ -1,59 +1,70 @@
+$("button#btn1").click(function(e){
+    e.preventDefault()
+    let userDeparture=$("#from option:selected" ).val();
+    let userDestination=$("#destination option:selected").val().toLowerCase();
+    let userNumberPlate=$("#size option:selected").val();
+    let numberPassenger=parseInt($("#passenger option:selected").val());
+    console.log( userDestination)
+    console.log( numberPassenger)
+
+  var Fare1= new Fare(userDestination,numberPassenger)
+  console.log(Fare1.getTotalAmount())
+  
+
+
+
+});
+
+
 function Fare(destination, passenger) {
     this.destination=destination;
-    this.passenger=passenger
+    this.passenger=passenger;
 
-}
+};
 
-Fare.prototype.getTotalAmount() {
+Fare.prototype.getTotalAmount=function(){
+   
+    
     let destinationPrice;
     if(this.destination=="buruburu"){
         destinationPrice=70;
         
     }
-    else if(this.destination=="Thika"){
+    else if(this.destination=="thika"){
         destinationPrice=100;
     }
-    else if(this.destination=="Rongai"){
+    else if(this.destination=="rongai"){
         destinationPrice=100;
     }
-    else if(this.destination=="Syokimau"){
+    else if(this.destination=="syokimau"){
         destinationPrice=80;
     }
-    else if(this.destination=="Kikuyu"){
+    else if(this.destination=="kikuyu"){
         destinationPrice=100;
     }
-    else if(this.destination=="Kiambu"){
+    else if(this.destination=="kiambu"){
         destinationPrice=50;
     
     }
-    else if(this.destination=="Kawangware"){
+    else if(this.destination=="kawangware"){
         destinationPrice=50;
     }
-    else{
+    else if(this.destination=="0"){
         destinationPrice=0;
     }
+    else{
+        console.log("error")
+    }
+    console.log(destinationPrice)
 
-  let totalAmount=destinationPrice * this.passenger
+  let totalAmount=(destinationPrice) * this.passenger
   console.log(totalAmount)
+  console.log(typeof totalAmount)
+
   return totalAmount;
 
 
-};
-
-
-    $("button#btn1").submit(function(){
-        let userDeparture=$("#from option:selected" ).val();
-        let userDestination=$(".destination option:selected").val()
-        let userNumberPlate=$("#size option:selected").val()
-        let numberPassenger=$("#passenger option:selected").val()
-
-      const Fare1= new Fare(userDeparture,userDestination,userNumberPlate,numberPassenger)
-      console.log(Fare1.getTotalAmount())
-      
-  
-  
-  
-    });
+};  
 
 
 
