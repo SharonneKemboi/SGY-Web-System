@@ -24,11 +24,7 @@ body{
      position: absolute;
      top: 50%;
  }
- /* #btn{
-     padding-left: 60%;
-     top: 80%;
-     position: relative;
- } */
+ 
  .nav ul{
     width: 70%;
     margin-left: 70%;
@@ -53,5 +49,9 @@ body{
      padding: 2px;
      justify-content: space-between;
      color: green;
+ }
+ @media query and (min-width: 480px){
+    #txt{ width: 200px; float:left}
+    #btn{margin-left: 216px;}
  }
  
