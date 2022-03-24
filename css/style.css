@@ -1,4 +1,4 @@
-gitbody{
+body{
     background: rgb(238, 236, 234);
     background: linear-gradient(180deg,rgb(40, 92, 45) 20%, rgba(255, 255, 255) 80%);
 }
@@ -20,9 +20,9 @@ gitbody{
      width: 100px;
  }
  #txt{
-     padding-left: 58%;
+     padding-left: 60%;
      position: absolute;
-     top: 50%;
+     top: 30%;
  }
  
  .nav ul{
@@ -50,8 +50,5 @@ gitbody{
      justify-content: space-between;
      color: green;
  }
- @media screen and (min-width: 480px){
-    #txt{ width: 200px; float:left}
-    #btn{margin-left: 216px;}
- }
+ 
  
