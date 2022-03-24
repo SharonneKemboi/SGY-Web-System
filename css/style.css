@@ -50,7 +50,7 @@ body{
      justify-content: space-between;
      color: green;
  }
- @media query and (min-width: 480px){
+ @media screen and (min-width: 480px){
     #txt{ width: 200px; float:left}
     #btn{margin-left: 216px;}
  }
