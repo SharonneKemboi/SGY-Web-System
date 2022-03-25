@@ -16,11 +16,15 @@ nav{
 }
 
 #navmenu{
-    display: block;
+    display: flex;
     margin-left: 55% !important;
     margin-right: 10% !important;
 }
+a.nav-link{
+    padding :3%;
+    
 
+ }
 #registermenu{
     display: block;
     margin-left: 15% !important;
@@ -50,6 +54,7 @@ nav{
 
 
 }
+
 
  .img1{
     float: right;
@@ -84,16 +89,19 @@ nav{
 }
 
 button{
-    border: 5px solid;
+    border:0px solid ;
     background-color: #1aa810;
-    padding: 2%;
-    margin-left: 10%;
+    padding: 3%;
+    margin-left: 20%;
+   
     
 }
+
 
 button a{
     color: #EBEBEB;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .container {
@@ -101,8 +109,10 @@ button a{
   color: #1aa810;
   line-height: 2;
   padding: 2%;
-  
-  
+    
+}
+#about h1 p{
+    font-family: 'Gabriela', sans-serif;
 }
 .container p{
     font-size: 1.8rem;
@@ -132,6 +142,13 @@ font-family: "Gabriela";
 }
 
 .accordion-item {
-    width: 90%;
+    width: 80%;
+    background: #080808;
 }
 
+  
+  
+  .social i {
+    margin: 5px 10px;
+    
+  }
