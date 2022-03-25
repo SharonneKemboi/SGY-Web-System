@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #0a0a0a !important;
+}
+.navbar{
+    background-color: black;
+    opacity: 0.8;
+}
+
+#navmenu{
+    display: flex;
+    margin-left: 55% !important;
+    margin-right: 10% !important;
+}
+a.nav-link{
+    padding :3%;
+    
+
+ }
+#registermenu{
+    display: block;
+    margin-left: 15% !important;
+}
+
+#icon{
+    display: block;
+    font-size: 337.5%;
+    color: #1aa810;
+    font-family: 'Gabriela', sans-serif;
+    padding-left: 3%;
+}
+
+#navbarSupportedContent ul li a{
+    font-style: normal;
+    font-family: 'Gabriela', sans-serif;
+    font-size: 115%;
+    font-weight: 600;
+    color: #1aa810 !important;
+    
+}
+
+#section1{
+    background: #080808;
+    min-height: 100vh;
+    color: #EBEBEB;
+
+
+}
+
+
+ .img1{
+    float: right;
+     margin: 7%; 
+     height: 50vh; 
+     width: 40vw;
+     margin-top: 15%;
+}
+#sgy{
+    display: block;
+    padding-left: 4%;
+    margin-top: 5%;
+}
+
+#sgy h1{
+    font-family: 'Permanent Marker', cursive;
+    color: #1aa810;
+    line-height: 3.2rem;
+    display: block;
+    margin-left: 3%;
+}
+
+#sgy p{
+    display: block;
+    margin-left: 3%;
+    margin-top: 3%;
+    color: #f7e8e8;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Gabriela', sans-serif;
+
+}
+
+button{
+    border:0px solid ;
+    background-color: #1aa810;
+    padding: 3%;
+    margin-left: 20%;
+   
+    
+}
+
+
+button a{
+    color: #EBEBEB;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container {
+  background-color: #0a0a0a;
+  color: #1aa810;
+  line-height: 2;
+  padding: 2%;
+    
+}
+#about h1 p{
+    font-family: 'Gabriela', sans-serif;
+}
+.container p{
+    font-size: 1.8rem;
+    
+}
+
+.container h1{
+    color: white;
+   
+    
+}
+.container1{
+    display: flex;
+}
+
+.card{
+    margin: 5%;
+    
+}
+ 
+.head2 h2{
+text-align: center;
+color: #1aa810;
+font-size: 70px;
+font-family: "Gabriela";
+
+}
+
+.accordion-item {
+    width: 80%;
+    background: #080808;
+}
+
+  
+  
+  .social i {
+    margin: 5px 10px;
+    
+  }

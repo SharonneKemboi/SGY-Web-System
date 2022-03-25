@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela:wght@300;400&family=Poppins&family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+.navbar{
+  background-color: black;
+  opacity: 0.8;
+ 
+  
+}
+
+body {
+    --color-primary: #0d0e0d;
+    --color-primary-dark: #070707;
+    --color-secondary: #1c1d25;
+    --border-radius: 4px;
+    background: rgb(238, 236, 234);
+    background: linear-gradient(200deg, #070707 15%, rgb(8, 8, 8) 80%);
+    font-family: 'Gabriela', sans-serif;
+}
+
+.jumbotron {
+    width: 50%;
+    max-width: 50%;
+    margin: 2%;
+    margin-top: 5%;
+    padding: 2%;
+ 
+    margin-left: 30%;
+    box-shadow: 0 0 1.2rem rgba(3, 46, 28, 0.2);
+    border-radius: var(--border-radius);
+    /* background: rgb(238, 236, 234);
+    background: linear-gradient(200deg, rgba(255,255,255,1) 80%#034d28 15%, ); */
+  
+}
+.carshare{
+height: 50vh;
+    width: 40vw;
+   float: left;
+   margin-top: 5%;
+   margin-left: -8%;
+}
+.transact{
+  float: right;
+  margin-top: -25%;
+  margin-right: -90%;
+}
+.main-container, .form-input-group,.form__button {
+    font: 500 1rem 'Gabriela', sans-serif;
+}
+
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.form__input-group {
+    margin-bottom: 1rem;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+    /*not important*/
+}
+
+.form__input:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+/* This adds the button search functionality */
+
+.wrapper{
+max-width: 45%;
+margin: 7%;
+}
+
+.wrapper .main-text {
+margin: 20px auto;
+text-align: center;
+color: rgb(16, 77, 26);
+}
+
+  
+.payment-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+.payment-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.payment-icons .mpesa-img {
+  border: none;
+} 
+
+.mpesa-img button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: 50%;
+  background-color: #0c614c;
+}
+.mpesa-img img{
+  height: 15vh;
+  width: 15vw;
+}
+.cash-img img{
+  height: 12vh;
+  width: 12vw;
+ 
+}
+.para{
+     display: none; 
+     
+}
+
+.cash-img button {
+  padding: 20px 35px;
+  border-radius: 10px;
+  background-color: #0c614c;
+}
+
+.mpesa-text {
+ text-align: center;
+ font-weight: bold;
+ padding: 10px;
+}
+
+.mpesa-btn  {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+.mpesa-btn a {
+
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  color:#f6f8fd;
+
+
+}
+
+
+
+.mpesa-btn button {
+  padding: 15px;
+  border-radius: 5px;
+  background: rgb(5, 54, 26);
+  border: none;
+  
+}
+/*style container*/
+.container{
+  background-color: rgb(238, 236, 234);;
+  padding: 10px 15px 20px 25px;
+}
+
+
+
+div{
+  margin: 10px;
+}
+
+.main-heading{
+  text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+input[type="submit"]{
+  width: 100%;
+  background-color: rgb(4, 26, 4);
+  color: honeydew;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 10px 0px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: rgb(78, 82, 78);
+}
+
+fieldset{
+  background-color: white;
+  border: 1px solid #cccccc;
+  margin: 10px;
+  font-size: 17px;
+}
+
+
+
+#visa{
+  width: 65px;
+}
+
+#paypal{
+  width: 95px;
+  height: 56px;
+}
+
+#mastercard{
+  width: 65px;
+}
+
