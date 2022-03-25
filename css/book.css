@@ -1,4 +1,90 @@
-option {
+@import url('https://fonts.googleapis.com/css2?family=Gabriela:wght@300;400&family=Gabriela&family=Quicksand&display=swap');
+body{
+    background-color: black;
+    font-family: "Gabriela" sans-serif;
+}
+.container1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+
+}
+.container2 img{
+    float: right;
+    width: 30vw;
+    height: 60vh;
+}
+
+
+#destination{
+    width: 50%;
+    padding: 1%;
+    border: 1px solid green;
+    color: green;
+    background-color: transparent;
+}
+#size{
+    width: 50%;
+    padding: 1%;
+    border: 1px solid green;
+    color: green;
+    background-color: transparent;
+
+}
+#passenger{
+    width: 50%;
+    padding: 1%;
+    border: 1px solid green;
+    color: green;
+    background-color: transparent;
+}
+#start{
+    width: 50%;
+    padding: 1%;
+    border: 1px solid green;
+    color: green;
+    background-color: transparent;
+}
+#from{
+    width: 50%;
+    padding: 1%;
+    border: 1px solid green;
+    color: green;
+    background-color: transparent;
+}
+.label{
+    color: green;
+}
+.result{
+    color: green;
+    margin-top: 1%;
+    font-size: 2rem;
+    font-family: "Gabriela ",sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* option {
     color: black;
     width: 100px;
     height: 20px;
@@ -69,7 +155,7 @@ option {
   }
   input{
       font-size: 20px;
-  }
+  } */
   /* .container2{
       background-color: aqua;
       position: absolute;

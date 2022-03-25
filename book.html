@@ -17,20 +17,21 @@
 
         <!-- <img class="image"  src="background.jpg" alt=""> -->
         <p>Book Your Travel Ride Now</p>
-    <p id="p1">Travel and Commute Between Cities With Ease.</p>
+        <p>Travel and Commute Between towns With Ease.</p>
     </div>
     <div class="container2">
     <div class="container">
         <form id="form" action="">
-        <label for="">Departure</label> <br>
+        <label class="label" for="">Departure</label> <br>
         <select name="" id="from">
             <option class="option1" value="0">---Select Departure---</option>
             <option value="cbd">CBD</option>
          
         </select>
         <div class="container2">
+            <img src="./Images/photos-11076027-16216667281778541.jpeg" alt="">
             <br>
-            <label for="">Destination</label> <br>
+            <label class="label" for="">Destination</label> <br>
             <br>
             <select name="" id="destination">
             <option class="option1" value="">---Select Destination---</option>
@@ -46,9 +47,9 @@
         <br>
         <div class="Vehicle">
             <br>
-            <label for="select">Number Plate</label> <br>
+            <label class="label" for="select">Number Plate</label> <br>
             <br>
-            <select name="" class="browser-default custom-select custom-select-md mb-3 name" id="size">
+            <select name=""  id="size">
               <option class="option1" value="0">---Select Vehicle Number Plate---</option>
               <option value="one">KCA 123D</option>
               <option value="two">KCC 433A</option>
@@ -61,11 +62,11 @@
               </select>
             </div>
         <br>
-        <div class="passangers">
+        <div class="passengers">
             <br>
-            <label for="select">Passengers</label> <br>
+            <label class="label" for="select">Passengers</label> <br>
             <br>
-            <select name="" class="browser-default custom-select custom-select-md mb-3 name" id="passenger">
+            <select name="" id="passenger">
              <option class="option1" value="0">--Select Number of Passengers--</option>
              <option value="1">1</option>
               <option value="2">2</option>
@@ -79,21 +80,24 @@
             </div>
             <br>
             <br>
-            <label for="option">Depature Date</label> <br>
+            <label class="label" for="option">Depature Date</label> <br>
             <br>
            <br> <input type="date" id="start" name="trip-start" class="browser-default custom-select custom-select-md mb-3 name" value="2022-03-23"
             min="2022-01-01" max="2022-12-31"> <br>
             <br>
             <br>
-            <label for="option">Depature Time</label> <br>
+            <label class="label" for="option">Depature Time</label> <br>
             <br>
            <br> <input type="time" id="start" name="trip-start" class="browser-default custom-select custom-select-md mb-3 name" value="2022-03-23"
             min="08:00" max="21:00"> <br>
             <br>
 
             <!--js-->
-            <button type="submit" id="btn1" class="btn btn-primary btn-lg btn-block">Submit</button> 
-            <span> <button type="button" id="btn2" class="btn btn-primary btn-lg btn-block">Pay Now</button></span>
+            <button href="" class="btn btn-success" id="btn1">submit</button> 
+            <div class="feedback">
+                <p class="result"></p>
+            </div>
+            <button class="btn btn-success" id="btn2"><a href="payment.html" class="anch" style="color: white;" >proceed to payment</a></button>
               <!-- <p>7:20 eldoret-------------------- 7hrs --------- nairobi</p> -->
 
       

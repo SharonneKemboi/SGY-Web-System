@@ -8,9 +8,13 @@ $("button#btn1").click(function(e){
     console.log( userDestination)
     console.log( numberPassenger)
 
-  var Fare1= new Fare(userDestination,numberPassenger)
-  console.log(Fare1.getTotalAmount())
-  
+  var fare1= new Fare(userDestination,numberPassenger)
+//   console.log(fare1.getTotalAmount())
+  if(userDestination=="" && numberPassenger==""){
+      alert("please fill the fields")
+  }else{
+    $(".result").append("your booking has been received and the total amount is" +":"+ fare1.getTotalAmount())+ "please proceed to payment"
+  }
 
 
 
