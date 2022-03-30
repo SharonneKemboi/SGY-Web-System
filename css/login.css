@@ -1,215 +1,102 @@
-@import url('https://fonts.googleapis.com/css?family=Gabriela:400,500,600,700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gabriela', sans-serif;
-}
-html, body{
-    height: 100%;
-    width: 100%;
-    place-items: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 body{
-  --color-primary: #0d0e0d;
-  --color-primary-dark: #070707;
-  --color-secondary: #1c1d25;
-  --border-radius: 4px;
-  background: rgb(238, 236, 234);
-  background: linear-gradient(200deg, #070707 15%, rgb(8, 8, 8) 80%);
-  font-family: 'Gabriela', sans-serif;
-    color: white;
-   
-}
-::selection{
-    background-color: #000;
-    color: #fff;
-}
-.wrapper{
-    overflow: hidden;
-  max-width: 70%;
-  background: green;
-   padding: 30px; 
-  border-radius: 5px;
-  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
-   margin-top: 10%;
-   margin-left: 20%; 
   
- 
-  
-}
-.wrapper .title-text{
     display: flex;
-    width: 200%;
+    justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.9),
+			rgba(0, 0, 0, 0.4)
+		),
+		url("../images/0_PtT1jN5O6r9-uZ45.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	padding: 3% 5%;
+	flex-direction: column;
+	align-items: center;
+	
 }
-.wrapper .title{
-    width: 50%;
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+.layout{
+    
+    display: flex;
+    justify-items: flex-start;
+    position: absolute;
+    width: 30vw;
+    
+    display: block;
+    top: 12%;
+    border-radius: 10%;
+    background: #fffefe;
+    border: 1px solid #faf7f7;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 4px 2px #fdfcfc;
 }
-.wrapper .slide-controls{
-    position: relative;
-  display: flex;
-  height: 7vh;
-  width: 100%;
-  overflow: hidden;
-  margin: 10% 0% 10% 0%;
-  justify-content: space-between;
-  border: 1px solid lightgrey;
-  border-radius: 5px;
+h1 {
+    font-family: 'Gabriela', cursive;
+    color:#69ca28;
+    display: flex;
+    padding-top: 10%;
+
 }
-.slide-controls .slide{
-    height: 100%;
-    width: 100%;
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 500;
-    text-align: center;
-    line-height: 3rem;
-    cursor: pointer;
-    z-index: 1;
-    transition: all 0.6s ease;
-  }
-.slide-controls label.signup{
-    color: #000;
+#details{
+    padding-top: 10%;
+}
+#btn{
+    background: #69ca28;
+    border: #69ca28;
+}
+.layout p{
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
 }
 
-input::placeholder{
-  font-size: 20px;
+
+/* register section */
+
+
+/* register button */
+#register{
+    padding-left: 1%;
+    color: #69ca28;
+    background:none;
+    border:none; 
+     
 }
-.slide-controls .slider-tab{
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    left: 0;
-    z-index: 0;
-    border-radius: 5px;
-    background: -webkit-linear-gradient(left, rgb(1, 26, 1), rgb(1, 39, 9));
-    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
-  }
-  input[type="radio"]{
+/* register form */
+
+.reg{
     display: none;
-  }
-  #signup:checked ~ .slider-tab{
-    left: 50%;
-  }
-  #signup:checked ~ label.signup{
-    color: #fff;
-    cursor: default;
-    user-select: none;
-  }
-  #signup:checked ~ label.login{
-    color: #000;
-  }
-  #login:checked ~ label.signup{
-    color: #000;
-  }
-  #login:checked ~ label.login{
-    cursor: default;
-    user-select: none;
-  }
-  .wrapper .form-container{
-    width: 100%;
-    overflow: hidden;
-  }
-  .form-container .form-inner{
+    height: auto;
+}
+#confirm{
+    background: #69ca28;
     display: flex;
-    width: 200%;
-  }
-  .form-container .form-inner form{
-    width: 50%;
-    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
-  }
-  .form-inner form .field{
-    height: 50px;
-    width: 100%;
-    margin-top: 20px;
-  }
-  .form-inner form .field input{
-    height: 100%;
-    width: 100%;
-    outline: none;
-    padding-left: 15px;
-    border-radius: 5px;
-    border: 1px solid lightgrey;
-    border-bottom-width: 2px;
-    font-size: 17px;
-    transition: all 0.3s ease;
-  }
-  #select{
-    width: 100%;
-    outline: none;
-    height: 6vh;
-    border-radius: 5px;
-    border: 1px solid lightgrey;
-    border-bottom-width: 2px;
-    font-size: 17px;
-    transition: all 0.3s ease;
-    background: white;
-    margin-top: 5%;
-    color: grey;
-    text-align: center;
-  }
-    
-  .form-inner form .field input:focus{
-    border-color: rgb(13, 14, 13);
-  }
-  .form-inner form .field input::placeholder{
-    color: #999;
-    transition: all 0.3s ease;
-  }
-  form .field input:focus::placeholder{
-    color: #b3b3b3;
-  }
-  .form-inner form .pass-link{
-    margin-top: 5px;
-  }
-  .form-inner form .signup-link{
-    text-align: center;
-    margin-top: 30px;
-  }
-  .form-inner form .pass-link a,
-  .form-inner form .signup-link a{
-    color: green;
-    text-decoration: none;
-  }
-  .form-inner form .pass-link a:hover,
-  .form-inner form .signup-link a:hover{
-    text-decoration: underline;
-  }
-  form .btn{
-    height: 50px;
-    width: 100%;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-  }
-  form .btn .btn-layer{
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    justify-content: center;
+    margin-bottom: 8%;
+    border: #69ca28;
+}
+#back{
+    background: #69ca28;
+    border: #69ca28;
+    margin-bottom: 8%;
+    margin-right: 30%;
    
-    background: -webkit-linear-gradient(right, rgb(2, 31, 2), rgb(7, 39, 7), rgb(1, 31, 1), rgb(1, 22, 1));
-    border-radius: 5px;
-    transition: all 0.4s ease;;
-  }
-  form .btn:hover .btn-layer{
-    left: 0;
-  }
-  form .btn input[type="submit"]{
-    height: 100%;
-    width: 100%;
-    background: none;
-    z-index: 1;
-    position: relative;
-    border: none;
-    color: #fff;
-    padding-left: 0;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-  }
-  
+}
+
+ .copyright {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1% 0;
+	background-color: black;
+}
+
+.copyright p {
+	color: rgb(102, 194, 27);
+	font-size: 1vw;
+}   
